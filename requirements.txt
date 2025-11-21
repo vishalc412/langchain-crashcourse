@@ -1,0 +1,200 @@
+# LangChain & LangGraph Learning System
+# Complete Requirements File
+# Last Updated: 2025
+
+# ============================================
+# CORE LANGCHAIN PACKAGES
+# ============================================
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langgraph>=0.0.20
+
+# ============================================
+# LLM PROVIDERS
+# ============================================
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# ============================================
+# VECTOR STORES
+# ============================================
+# Chroma - Lightweight vector database
+chromadb>=0.4.0
+
+# FAISS - Similarity search
+faiss-cpu>=1.7.4
+
+# Pinecone - Managed vector database (optional)
+# pinecone-client>=3.0.0
+
+# ============================================
+# DOCUMENT LOADERS
+# ============================================
+# PDF processing
+pypdf>=3.17.0
+pdfplumber>=0.10.0
+
+# General document processing
+unstructured>=0.10.0
+
+# Web scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# ============================================
+# TEXT PROCESSING
+# ============================================
+# Sentence transformers for embeddings
+sentence-transformers>=2.2.0
+
+# Text splitting
+nltk>=3.8.0
+
+# BM25 for hybrid search
+rank-bm25>=0.2.2
+
+# ============================================
+# EVALUATION & MONITORING
+# ============================================
+# RAG evaluation
+ragas>=0.1.0
+
+# Deep evaluation
+deepeval>=0.20.0
+
+# Logging and monitoring
+python-dotenv>=1.0.0
+loguru>=0.7.0
+
+# ============================================
+# WEB FRAMEWORKS (for production)
+# ============================================
+# FastAPI for REST APIs
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Pydantic for data validation
+pydantic>=2.0.0
+
+# ============================================
+# DATABASES (optional)
+# ============================================
+# SQLAlchemy for database operations
+sqlalchemy>=2.0.0
+
+# Redis for caching
+redis>=5.0.0
+
+# ============================================
+# RERANKING (optional)
+# ============================================
+# Cohere for reranking
+# cohere>=4.0.0
+
+# ============================================
+# GRAPH VISUALIZATION
+# ============================================
+# For visualizing LangGraph workflows
+graphviz>=0.20.0
+matplotlib>=3.7.0
+
+# ============================================
+# DEVELOPMENT TOOLS
+# ============================================
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.0.0
+mypy>=1.5.0
+pylint>=3.0.0
+isort>=5.12.0
+
+# Type hints
+types-requests>=2.31.0
+
+# ============================================
+# ASYNC SUPPORT
+# ============================================
+aiohttp>=3.9.0
+httpx>=0.25.0
+
+# ============================================
+# DATA PROCESSING
+# ============================================
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ============================================
+# NOTEBOOKS (for exploration)
+# ============================================
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# ============================================
+# OPTIONAL ADVANCED FEATURES
+# ============================================
+# For working with Excel files
+# openpyxl>=3.1.0
+
+# For CSV processing
+# csv>=1.0
+
+# For JSON processing
+# jsonschema>=4.19.0
+
+# For YAML configuration
+# pyyaml>=6.0.0
+
+# ============================================
+# DEPLOYMENT (optional)
+# ============================================
+# Docker support
+# docker>=6.1.0
+
+# Kubernetes client
+# kubernetes>=28.0.0
+
+# ============================================
+# MONITORING & TELEMETRY (production)
+# ============================================
+# Prometheus metrics
+# prometheus-client>=0.18.0
+
+# OpenTelemetry
+# opentelemetry-api>=1.20.0
+# opentelemetry-sdk>=1.20.0
+
+# ============================================
+# SECURITY
+# ============================================
+# Environment variable management
+python-decouple>=3.8
+
+# Secrets management
+# cryptography>=41.0.0
+
+# ============================================
+# NOTES
+# ============================================
+#
+# MINIMAL SETUP (for beginners):
+# pip install langchain langchain-openai langgraph chromadb python-dotenv openai
+#
+# STANDARD SETUP (for most use cases):
+# pip install -r requirements.txt
+#
+# PRODUCTION SETUP:
+# Uncomment optional packages as needed
+# Consider using virtual environments
+# Pin exact versions for production
+#
+# PLATFORM-SPECIFIC:
+# - Use faiss-cpu on CPU-only systems
+# - Use faiss-gpu on GPU systems
+# - Some packages may require system dependencies
+#
+# ============================================
